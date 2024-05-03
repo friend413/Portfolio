@@ -10,7 +10,7 @@ const skillSets = [
   "MySQL",
   "AWS",
   "GraphQL",
-  "Web3",
+  "dapp",
   "Solidity",
   "Rust",
   "Elixir",
