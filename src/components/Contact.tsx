@@ -1,6 +1,6 @@
 import { AwesomeButton } from "react-awesome-button";
 import { Fade } from "react-awesome-reveal";
-import { BsDiscord, BsGithub, BsLinkedin, BsTelegram } from "react-icons/bs";
+import { BsDiscord, BsGithub, BsSkype, BsTelegram } from "react-icons/bs";
 import { socialLinks } from "../data/socialLinks";
 
 export default function Contact() {
@@ -53,13 +53,7 @@ export default function Contact() {
 
           <Fade delay={1900} triggerOnce={true}>
             <div className="grid items-center justify-center grid-cols-2 gap-5 md:grid-cols-4">
-              <AwesomeButton type="linkedin" href={socialLinks.linkedin}>
-                <span className="flex items-center justify-center gap-1">
-                  <BsLinkedin size={20} />
-                  <span className="text-sm font-light uppercase">Linkedin</span>
-                </span>
-              </AwesomeButton>
-              <AwesomeButton type="instagram" href={socialLinks.discord}>
+              <AwesomeButton type="linkedin" href={socialLinks.discord}>
                 <span className="flex items-center justify-center gap-1">
                   <BsDiscord size={20} />
                   <span className="text-sm font-light uppercase">Discord</span>
@@ -69,6 +63,12 @@ export default function Contact() {
                 <span className="flex items-center justify-center gap-1">
                   <BsGithub size={20} />
                   <span className="text-sm font-light uppercase">Github</span>
+                </span>
+              </AwesomeButton>
+              <AwesomeButton type="instagram" href={socialLinks.skype}>
+                <span className="flex items-center justify-center gap-1">
+                  <BsSkype size={20} />
+                  <span className="text-sm font-light uppercase">Skype</span>
                 </span>
               </AwesomeButton>
               <AwesomeButton type="twitter" href={socialLinks.telegram}>
