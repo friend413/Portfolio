@@ -21,7 +21,7 @@ export default function Contact() {
             <small className="dark:text-[#9a9a9a] text-[#6e6e6e]">
               {`If you want to get in touch, talk to me about a project collaboration, or just say hi, please send an email to `}
               <a
-                href="mailto:mateo.kova0510@gmail.com"
+                href="shinjirohara2@gmail.com"
                 className="text-2xl dark:text-[#bbbbbb] transition-all duration-300 dark:hover:text-white text-[#787878] hover:text-[#020202]"
               >
                 {" "}
