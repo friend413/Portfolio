@@ -27,8 +27,8 @@ export default function Home() {
           <Fade delay={1400} triggerOnce={true}>
             <p className="text-[#8a8a8a] text-sm md:text-md">
             I am a FullStack | Blockchain developer with 3 years of experience.
-            As a blockchain full stack developer, I have participated in lot's of full stack and blockchain projects such as DApp, DEFI, DEX, DAO, NFT, MARKETPLACE, P2E GAME on various blockchains.
-            Most of the time, I am working on Bitcoin, Ethereum, Cosmos, BSC, Polygon, Availanche, Venom, Solana, Near and XRP blockchains.
+            As a full stack and blockchain developer, I have participated in lots of full stack and blockchain projects such as DApp, DEFI, DEX, DAO, NFT, MARKETPLACE, P2E GAME on various blockchains.
+            Most of the time, I am working on Bitcoin, Ethereum, Solana, Sei, Nibiru, Aptos, Cosmos Hub, BSC, Polygon, Availanche, Venom, Near and XRP blockchains.
             </p>
           </Fade>
           <Bounce delay={1600} triggerOnce={true}>
