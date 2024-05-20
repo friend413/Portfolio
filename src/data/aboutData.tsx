@@ -25,7 +25,6 @@ const knowledgeSets = [
   "Gitlab",
   "CI/CD Pipleline",
   "Photoshop",
-  "Smart Contract Audit",
   "Graphics | animations",
 ];
 
