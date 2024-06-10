@@ -27,7 +27,7 @@ export default function About() {
                   University of Tokyo
                 </span>
                 <p className="text-[#8a8a8a] text-md text-left">
-                  {`2016.4 ~ 2019.5`}
+                  {`2015.4 ~ 2019.5`}
                 </p>
                 <p className="text-[#8a8a8a] text-md text-left">
                   Bachelor Degree of Computer Science
